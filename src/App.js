@@ -1,10 +1,12 @@
 import './App.css';
-import Header
+import Header from './Header/Header.js';
+import Main from './Main/Main.js';
+import Footer from './Footer/Footer.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header" />
+      <Header className="App-header" name='Colter' />
       <main />
       <footer />
     </div>
