@@ -1,11 +1,11 @@
-import './animalCard.css';
+import './AnimalCard.css';
 
-export default function animalCard({ name, saying }) {
+export default function AnimalCard({ name, saying }) {
   return (
     <div className='animal-card'>
       <h1>{name}</h1>
       <p>{saying}</p>
-      <img src={`/images/${name}.svg`} />
+      {/* <img alt={name} src={`${process.env.PUBLIC_URL}/images/${type}.svg`} /> */}
     </div>
   );
 }
