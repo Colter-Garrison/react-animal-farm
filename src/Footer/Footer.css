@@ -1,0 +1,13 @@
+footer {
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 40px;
+    background-color: magenta;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

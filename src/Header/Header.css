@@ -1,0 +1,10 @@
+header {
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 40px;
+    background-color: magenta;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
