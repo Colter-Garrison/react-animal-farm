@@ -1,7 +1,7 @@
 import React from 'react';
 import backgroundImg from '../background-image.png';
 import './AnimalList.css';
-import AnimalCard from '../AnimalCard/AnimalCard';
+import AnimalCard from '../banana/AnimalCard';
 
 export default function AnimalList({ animals }) {
   return (
